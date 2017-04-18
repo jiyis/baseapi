@@ -167,7 +167,8 @@ return [
          * Package Service Providers...
          */
         //Laravel\Tinker\TinkerServiceProvider::class,
-
+        Dingo\Api\Provider\LaravelServiceProvider::class,
+        Prettus\Repository\Providers\RepositoryServiceProvider::class,
 
         /*
          * Application Service Providers...
