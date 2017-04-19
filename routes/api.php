@@ -19,53 +19,6 @@ $api->version('v1',['namespace' => 'App\Http\Controllers\Api\V1', 'middleware' =
 //        'limit' => '',
     ], function($api) {
         
-		$api->get('users','UserController@index');
-		$api->get('users/count','UserController@count');
-		$api->get('users/{id}','UserController@show');
-		$api->post('users','UserController@store');
-		$api->patch('users/{id}','UserController@update');
-		$api->delete('users/{id}','UserController@destroy');
-		$api->get('users','UserController@index');
-		$api->get('users/count','UserController@count');
-		$api->get('users/{id}','UserController@show');
-		$api->post('users','UserController@store');
-		$api->patch('users/{id}','UserController@update');
-		$api->delete('users/{id}','UserController@destroy');
-		$api->get('users','UserController@index');
-		$api->get('users/count','UserController@count');
-		$api->get('users/{id}','UserController@show');
-		$api->post('users','UserController@store');
-		$api->patch('users/{id}','UserController@update');
-		$api->delete('users/{id}','UserController@destroy');
-		$api->get('users','UserController@index');
-		$api->get('users/count','UserController@count');
-		$api->get('users/{id}','UserController@show');
-		$api->post('users','UserController@store');
-		$api->patch('users/{id}','UserController@update');
-		$api->delete('users/{id}','UserController@destroy');
-		$api->get('users','UserController@index');
-		$api->get('users/count','UserController@count');
-		$api->get('users/{id}','UserController@show');
-		$api->post('users','UserController@store');
-		$api->patch('users/{id}','UserController@update');
-		$api->delete('users/{id}','UserController@destroy');
-		$api->get('users','UserController@index');
-		$api->get('users/count','UserController@count');
-		$api->get('users/{id}','UserController@show');
-		$api->post('users','UserController@store');
-		$api->patch('users/{id}','UserController@update');
-		$api->delete('users/{id}','UserController@destroy');
-		$api->get('users','UserController@index');
-		$api->get('users/count','UserController@count');
-		$api->get('users/{id}','UserController@show');
-		$api->post('users','UserController@store');
-		$api->patch('users/{id}','UserController@update');
-		$api->delete('users/{id}','UserController@destroy');
-		$api->get('users','UserController@index');
-		$api->get('users/count','UserController@count');
-		$api->get('users/{id}','UserController@show');
-		$api->post('users','UserController@store');
-		$api->patch('users/{id}','UserController@update');
-		$api->delete('users/{id}','UserController@destroy');
+
 	});
 });
