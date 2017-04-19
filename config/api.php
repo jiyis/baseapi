@@ -200,7 +200,7 @@ return [
     |
     */
 
-    'transformer' => env('API_TRANSFORMER', \App\Transformers\Adapter\InnoFractal::class),
+    'transformer' => env('API_TRANSFORMER', \Inno\Core\Transformers\Adapter\InnoFractal::class),
 
     /*
     |--------------------------------------------------------------------------
